@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simulador de Financiamento</title>
+    </head>
+    <body>
+        <style>
+     body{
+        background: rgb(4,4,45);
+        color: white;
+        font-size: 11pt Tahoma;
+        text-align: center;
+     }
+     #container{
+        margin: 5px 450px;
+     }
+     tr:nth-child(even){
+        opacity: 0.8;
+        background-color: gray;
+     }
+
+      table,th, td{
+        border: 1px solid white;
+        border-collapse: collapse;
+        padding: 15px;
+     }
+     input{
+        border: 2px solid gray;
+        border-radius: 5px;
+        color: blue;
+        font-size: 1.5rem;
+        text-align: center;
+        align-items: center;
+
+     }
+     button{
+        color: white;
+        font-size: 1.3rem;
+        background-color:tomato;
+        border-radius: 5px;
+        
+     }
+
+   </style>
+
+        <h2>SAC - Simulador Financiamento & Amortização </h2>
+        <input id="textoValor" type="text" placeholder="Valor do Bem"><br>
+        <input id="textoEntrada" type="text" placeholder="Valor da Entrada"><br>
+        <input id="textoTaxaJuros" type="text" placeholder="Taxa de Juros (%)"><br>
+        <input id="textoPrazo" type="text" placeholder="Prazo (meses)"><br><br>
+
+        <button id="botaoCalcular">Calcular</button><br><br>
+        <input id="comCarencia" type="checkbox"> Com Carência?
+        
+        <select id="listaSuspensa" hidden >
+            <option value="2">2 meses</option>
+            <option value="3">3 meses</option>
+            <option value="4">4 meses</option>
+        </select>
+
+        <p></p>
+    <div id="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Valor da Parcela</th>
+                    <th>Amortização</th>
+                    <th>Juros</th>
+                    <th>Saldo Devedor</th>
+                </tr>
+            </thead>
+            <Tbody id="corpoTabela">
+
+            </Tbody>
+        </table>
+    </div>   
+        <script type="module" src="./index.js"></script>
+    </body>
+</html>
