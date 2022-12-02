@@ -1,0 +1,63 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+div{
+    width: 80vw;
+    height: auto;
+    margin: 10px 100px; 
+    text-align: center;
+    border: 1px solid yellowgreen;
+    border-radius: 8px;
+    padding: 50px;
+    
+}
+
+body{
+   background: rgb(4,4,45);
+   color: white;
+   font-size: 11pt Tahoma;
+   text-align: center;
+}
+table{
+    width: 95%;
+    margin-left: 3%;
+    
+}
+
+
+ table,th, td{
+   border: 1px solid white;
+   border-collapse: collapse;
+   padding: 15px;
+   
+
+}
+
+tr:nth-child(even){
+    opacity: 0.8;
+    background-color: gray;
+ }
+input{
+   border: 2px solid rgb(139, 219, 47);
+   border-radius: 5px;
+   color: rgb(192, 24, 108);
+   font-size: 1.5rem;
+   text-align: center;
+   align-items: center;
+   height: 40px;
+   font-weight: bold;
+    
+
+}
+button{
+   color: white;
+   font-size: 1.2rem;
+   background-color:tomato;
+   border-radius: 8px;
+   padding: 10px;
+   
+}
+h1{
+    margin: 30px;
+}
