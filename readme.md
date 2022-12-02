@@ -12,15 +12,17 @@
  ![preview](./preview.png)
 
 
-## Contato :
-- [Dev aprendiz - Washington](https://washingtongomes.github.io/simulador-financeiro/)
+[Clique aqui para acessar o site](https://washingtongomes.github.io/simulador-financeiro/)
 
-    wsgomes600@gmail.com
 
-[Clique aqui para acessar o site](https://washingtongomes.github.io/)
 ## Referência:
 
 Professores Tops:
-
     - Gabriel
+    - Rafael Ribeiro
     - Clayton
+
+## Contato :
+- [Dev aprendiz - Washington]
+
+    wsgomes600@gmail.com
